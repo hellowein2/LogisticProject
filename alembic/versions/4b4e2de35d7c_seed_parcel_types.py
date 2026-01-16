@@ -36,4 +36,4 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
-    op.execute("DELETE FROM parcel_types WHERE name IN ('clothes','electronics','other')")
+    op.execute("DELETE FROM parcel_types WHERE name IN ('Clothes','Electronics','Others')")
